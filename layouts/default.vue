@@ -30,7 +30,7 @@
       app
       color="teal"
     >
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
+      <v-app-bar-nav-icon @click.stop="drawer = !drawer" class="white--text"/>
       <span class="pl-5 title white--text">Student Performance</span>
     </v-app-bar>
     <v-content>
